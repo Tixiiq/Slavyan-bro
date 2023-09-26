@@ -1,6 +1,25 @@
+ul{
+    margin:0;
+}
+li{
+    list-style:none;
+}
+.container{
+    padding-left: 15vw ;
+    padding-right: 15vw;
+}
 .menu{
     display:flex;
 }
 .menu__links{
     display:flex;
+}
+.menu__item:nth-child(1){
+    margin-right:auto;
+}
+.menu__link{
+    margin-right: 20px;
+}
+.menu__link:nth-last-child(1){
+    margin-right: 0;
 }
