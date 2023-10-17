@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
 ul{
     margin:0;
 }
@@ -7,6 +12,15 @@ li{
 .container{
     padding-left: 15vw ;
     padding-right: 15vw;
+}
+.header{
+    position: absolute ;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .menu{
     display:flex;
@@ -22,4 +36,21 @@ li{
 }
 .menu__link:nth-last-child(1){
     margin-right: 0;
+}
+.screen{
+    position: relative;
+    height: 100vh;
+}
+.bg{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.bg__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
 }
