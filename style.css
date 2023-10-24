@@ -59,4 +59,21 @@ li{
 .screen__headline{
     color: #fff;
     font-size: 96px;
+    margin-bottom: 35px;
 }
+.screen__paragraph{
+    color: #fff;
+
+}
+.screen__button{
+    padding:  20px;
+    background-color: #fff;
+    text-decoration: none;
+    transition-duration: .3s;
+    display: flex;width: max-content;
+}
+.screen__button:hover{
+    background-color: #333;
+    color: #fff;
+}
+
